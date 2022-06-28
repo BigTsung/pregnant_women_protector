@@ -13,6 +13,6 @@ public class SearchItem : MonoBehaviour
 
      public void OnSearchButtonClick()
      {
-        Debug.Log(DataManager.Instance.GetFoodByName(targetFoodName).name);
+        MainUIManager.Instance.RefreshTargetFoodDescriptionItem(targetFoodName);
      }
 }

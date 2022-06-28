@@ -1,0 +1,116 @@
+{
+	"Items": [
+		{
+			"name":"香蕉",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "懷孕前三個月能吃香蕉的，孕婦吃香蕉的好處：1、預防高血壓：香蕉內含有豐富的鉀，可幫孕婦將過多的鈉離子排出體外，起到控制血壓的作用，是預防妊娠高血壓的良好食物。2、防止便秘：香蕉富含膳食纖維，孕婦吃香蕉可以刺激胃腸蠕動，幫助排便。3、有效控制孕期體重：很多人把香蕉當做減肥期間的主食來源，體重超標的孕婦可以適當吃些香蕉，以增加胃腸的飽足感，把體重控制在適當範圍內。4、減壓香蕉含有一種稱為生物鹼的物質，可以幫助媽咪振奮精神和增強信心。而且香蕉是色胺酸和維他命B6的超級來源，這些都可以幫助大腦製造血清素，減少產生憂鬱的情形。",
+			"refersnce":"https://kknews.cc/health/qgaqg.html"
+		},
+		{
+			"name":"蘋果",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "便秘時直接吃帶皮的新鮮蘋果，反之若是拉肚子、腹瀉，應該要吃削皮蘋果。如果想舒緩孕吐，無法吃下切塊的蘋果，可以改喝新鮮蘋果汁，並加點甘蔗和生薑，好喝順口又能促進食慾喔！",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"芭樂",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "芭樂屬於溫性的水果，含豐富的維他命C以及鉀元素有助於寶寶大腦發育，但由於芭樂籽難以消化，建議可去籽食用，一天不宜超過2顆。",
+			"refersnce":"https://www.my-bras.com/cc-407"
+		},
+		{
+			"name":"梨子",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "秋天是梨子的盛產季節，梨子能利尿，對孕期消水腫有幫助，還能潤喉、鎮咳怯痰。",
+			"refersnce":""
+		},
+		{
+			"name":"葡萄",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "有貧血、氣色不好、手腳冰冷、血液循環不好的孕婦，可以多吃葡萄。在中醫的觀點裡，葡萄亦有安胎的作用，對輕微尿道炎也有幫助。葡萄的皮、籽、果肉的營養價值都非常高，如果可以接受的話，吃葡萄的時候不妨連皮帶籽吃，不然乾脆打成汁也很方便喝。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"櫻桃",
+			"dangerous": 0,
+			"type":"fruit",
+			"description": "櫻桃含豐富的鐵是蘋果的20倍，對於缺鐵的媽媽有良好的補鐵效果，也有助於食慾比較差的孕婦調節腸胃功能，多吃櫻桃還能提高生下白皙且氣色紅潤寶寶的機率呦。",
+			"refersnce":"https://www.my-bras.com/cc-407"
+		},
+		{
+			"name":"木瓜",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "木瓜，尤其是青木瓜含有女性荷爾蒙，懷孕初期如果吃太多木瓜可能會干擾到荷爾蒙或影響子宮收縮，體質不穩定的孕婦最好不要吃太多",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"柑橘",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "柑橘含有非常豐富的維他命C，酸甜好吃，加上在盛產季節容易購入，價格不貴，常常一吃就停不下來，往往要吃好幾顆才過癮，甚至影響到正餐的食量與胃口，孕婦一定要節制，千萬不要照三餐吃啊！ 每天吃1~2顆就好。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"芒果",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "芒果獨特的風味總是讓人欲罷不能，傳統中醫認為芒果是很毒的水果，其實是因為芒果比較容易造成過敏。本身是易過敏體質的媽媽，懷孕時應少吃芒果。如果只是單純喜歡芒果的滋味，由於芒果太甜，也要盡量少吃以避免攝取過多糖分。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"柿子",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "很多孕婦都有便秘的困擾，柿子對便祕、痔瘡有療效，但吃多容易消化不良，胃功能不好或有慢性胃炎者不要吃太多。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"榴槤",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "榴槤是熱量非常高的水果，有血糖問題的孕婦不適合吃榴槤。除非是刻意要增重，否則榴槤吃多一不小心就有胎兒過大的問題。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"葡萄柚",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "葡萄柚含有豐富的葉酸，在懷孕初期其實很適合吃，可以減少胎兒的神經管異常。但葡萄柚同時也含有黃酮類，會抑制人體的藥物代謝能力，如果孕婦本身有慢性病史，像是長期服用降血脂藥、鎮靜劑、抗組織胺、抗黴菌藥、心絞痛及高血壓藥等，都不宜和葡萄柚同時食用，建議最好先諮詢專業醫師的意見。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"荔枝",
+			"dangerous": 1,
+			"type":"fruit",
+			"description": "食用太多荔枝會提高血液中的血糖水平，如果血糖水平上升，就有可能導致懷孕期間糖尿病，造成健康上的風險。荔枝屬於燥熱的食物，所以如果食用太多，容易造成身體內熱，在懷孕期間，這有可能會導致併發症，須特別留",
+			"refersnce":"https://mombaby.tw/article16603.html"
+		},
+		{
+			"name":"西瓜",
+			"dangerous": 2,
+			"type":"fruit",
+			"description": "西瓜很利尿，可消水腫降火氣，但吃太多容易拉肚子。台灣人一般喜歡將西瓜冰冰箱，但孕婦吃太冰的西瓜可能會引起宮縮，保險起見，易流產/早產體質者還是要小心。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		},
+		{
+			"name":"桃子",
+			"dangerous": 2,
+			"type":"fruit",
+			"description": "桃子屬溫性的水果，但香甜的滋味一不小心就會食用過量，容易生熱而上火，造成胎動不穩定甚至會導致流產，另外過敏體質的孕婦也不適合食用",
+			"refersnce":"https://www.my-bras.com/cc-407"
+		},
+		{
+			"name":"山楂",
+			"dangerous": 2,
+			"type":"fruit",
+			"description": "對單純食欲不振的孕婦來說，山楂能開胃，少量食用無妨。但對體質比較虛弱的孕婦來說，山楂亦會引起宮縮，嚴重的話可能會導致流產。",
+			"refersnce":"https://mamilove.com.tw/articles/457"
+		}
+	]
+}
