@@ -27,12 +27,19 @@ public class DataManager : Singleton<DataManager>
 
     public bool AddNewFoodToLocalFoodDatabase(Food food)
     {
-        if(food == null)
+        if(food == null && GetFoodByName(food.name) != null)
         {
             return false;
         }
 
+        // Debug.Log("New Food is added to database: " + food.name + " " + food.dangerous + " " + food.description);
+        
         foods.Add(food);
         return true;
+    }
+
+    public void ExportJson()
+    {
+        
     }
 }
