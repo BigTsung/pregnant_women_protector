@@ -11,7 +11,6 @@ public class AddingUIManager : MonoBehaviour
     [SerializeField] private TMP_Dropdown levelDropDown;
     [SerializeField] private InputField descriptionInputField;
 
-    
     private string foodName = string.Empty;
     private string description = string.Empty;
     private int level = 0;
@@ -23,7 +22,6 @@ public class AddingUIManager : MonoBehaviour
             statusText.text = content;
         }
     }
-
     private void SetFoodNameInputField(string content)
     {
         if(foodNameInputField != null)
@@ -46,7 +44,6 @@ public class AddingUIManager : MonoBehaviour
             descriptionInputField.text = content;
         }
     }
-
     public void CloseMyself()
     {
         SetStatusText("");
@@ -55,21 +52,22 @@ public class AddingUIManager : MonoBehaviour
         SetDescriptionInputField("");
         gameObject.SetActive(false);
     }
-
     public void OnClickAddingButton()
     {
         Food food = new Food();
         food.name = foodName;
         food.description = description;
         food.dangerous = level;
-        bool added = DataManager.Instance.AddNewFoodToLocalFoodDatabase(food);
-        if(added)
+        
+        if(DataManager.Instance.GetFoodByName(food.name) != null)
         {
-            SetStatusText("已加入");
+            DataManager.Instance.UpdateFoodInfoInLocalFoodDatabase(food);
+            SetStatusText("已更新");
         }
         else
         {
-            SetStatusText("已存在");
+            DataManager.Instance.AddNewFoodToLocalFoodDatabase(food);
+            SetStatusText("已加入");
         }
     }
 
@@ -88,6 +86,4 @@ public class AddingUIManager : MonoBehaviour
         Debug.Log("index: " + index);
         level = index;
     }
-
-   
 }

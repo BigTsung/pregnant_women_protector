@@ -44,14 +44,6 @@ public class MainUIManager : Singleton<MainUIManager>
         }
     }
 
-    // private void SetActiveSearchItem(bool status)
-    // {
-    //     if(searchItemGameObject != null)
-    //     {
-    //         searchItemGameObject.SetActive(status);
-    //     }
-    // }
-
     public void RefreshTargetFoodDescriptionItem(string targetFoodName)
     {
         Food targetFood = DataManager.Instance.GetFoodByName(targetFoodName);

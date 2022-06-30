@@ -9,8 +9,8 @@ public class DataManager : Singleton<DataManager>
     void Start()
     {
         string text = LoadJsonfile(Path.Combine(Application.persistentDataPath, "Foods.json"));
-        Food[] foodarr = JsonHelper.FromJson<Food>(text);
-        foods = new List<Food>(foodarr);
+        Food[] food = JsonHelper.FromJson<Food>(text);
+        foods = new List<Food>(food);
     }
 
     private string LoadJsonfile(string path)
@@ -32,14 +32,28 @@ public class DataManager : Singleton<DataManager>
             return false;
         }
 
-        // Debug.Log("New Food is added to database: " + food.name + " " + food.dangerous + " " + food.description);
-        
         foods.Add(food);
         return true;
     }
 
+    public bool UpdateFoodInfoInLocalFoodDatabase(Food food)
+    {
+        int foodIndex = foods.FindIndex(x => x.name == food.name);
+        if(foodIndex >= 0)
+        {
+            foods[foodIndex] = food;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
     public void ExportJson()
     {
-        
+        Food food = new Food();
+        string jsonStr = JsonHelper.ToJson<Food>(foods.ToArray(), true);
+        File.WriteAllText(Path.Combine(Application.persistentDataPath, "Foods.json"), jsonStr);
     }
 }

@@ -8,7 +8,6 @@ public class FoodDescriptionItem : MonoBehaviour
 {
     [SerializeField]
     private Text foodNameText;
-    // private TextMeshProUGUI foodNameText;
     [SerializeField]
     private Image danguousLighting;
     [SerializeField]
@@ -18,12 +17,10 @@ public class FoodDescriptionItem : MonoBehaviour
     {
         if(foodNameText != null)
         {
-            // foodNameText.SetText(foodName);
             Debug.Log(foodName);
             foodNameText.text = foodName;
         }
     }
-
     private void SetDanguageLighting(int level)
     {
         if(danguousLighting != null)
@@ -41,7 +38,6 @@ public class FoodDescriptionItem : MonoBehaviour
             danguousLighting.color = color;
         }
     }
-
     private void SetDescriptionText(string description)
     {
         if(descriptionText != null)
