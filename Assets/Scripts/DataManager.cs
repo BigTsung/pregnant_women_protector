@@ -8,6 +8,7 @@ public class DataManager : Singleton<DataManager>
     private List<Food> foods = new List<Food>();
     void Start()
     {
+        Debug.Log("Application.persistentDataPath: " + Application.persistentDataPath);
         string text = LoadJsonfile(Path.Combine(Application.persistentDataPath, "Foods.json"));
         Food[] food = JsonHelper.FromJson<Food>(text);
         foods = new List<Food>(food);
