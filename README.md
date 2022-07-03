@@ -17,4 +17,4 @@ Enjoy it!
 * Share your food database (Coming soon)
 
 # Demo
-![pipeline sample](https://github.com/BigTsung/pregnant_women_protector/raw/main/videos/Dem_baby_protector_20220703.gif)
+ <img src="https://github.com/BigTsung/pregnant_women_protector/raw/main/videos/Dem_baby_protector_20220703.gif" height="30%" width="30%">
